@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-Console.WriteLine("Введите количество элементов, которые Вы планируете ввести.");
+﻿Console.WriteLine("Введите количество элементов, которые Вы планируете ввести.");
 int arraySize = Convert.ToInt32(Console.ReadLine());
 string [] arr = new string[arraySize];
 fillArray(arr);
